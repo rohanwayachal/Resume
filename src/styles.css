@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+.intro {
+  padding: 200px 50px 120px 50px;
+  font-weight: 800;
+  font-size: 80px;
+  text-align: center;
+  font-family: "Dancing Script";
+}
+
+.skills {
+  padding-left: 150px;
+  display: flex;
+}
+
+.simg {
+  padding-left: 22px;
+}
+
+.bg {
+  background: linear-gradient(rgb(232, 234, 236) 10%, white 100%);
+}
+
+/*
+.introduction{
+  background: rgb(245, 240, 240);
+  background: radial-gradient(45deg,rgb(245, 240, 240),white)
+}
+
+.edu{
+  background: rgb(253, 253, 253);
+  background: radial-gradient(-45deg,rgb(247, 247, 247),white)
+}
+*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  width: 500px;
+  margin-left: 33%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  align-items: center;
+  background-color: #53535a;
+  background-color: white;
+
+  opacity: 1;
+}
+
+.logo-container,
+.nav-links {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+.logo {
+  /* color: #53535a;*/
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 50px;
+
+  margin: 5px;
+}
+nav {
+  flex: 2;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  /* color: #5f5f79; */
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.eleft {
+  flex: 1;
+}
+.eright {
+  flex: 1;
+}
+
+.eblock1 {
+  color: #53535a;
+
+  padding: 20px;
+  font-size: 18px;
+}
+.eblock2 {
+  color: #53535a;
+
+  padding: 20px;
+  padding-top: 80px;
+  font-size: 18px;
+}
+
+.education {
+  display: flex;
+  padding: 100px 100px 0 0;
+}
+
+.career {
+  display: flex;
+  padding: 100px 100px 0 0;
+}
+
+.cblock {
+  color: #53535a;
+
+  padding: 20px;
+  font-size: 18px;
+}
+
+.cleft {
+  margin-left: 400px;
+  flex: 1;
+}
+.cright {
+  padding-left: 0px;
+  flex: 2;
+}
+
+.introheader {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.eheader {
+  text-align: center;
+  padding: 150px 0 50px 0;
+}
+
+.cheader {
+  text-align: center;
+  padding: 120px 0 50px 0;
+}
+
+.project {
+  padding: 80px 20px 40px 40px;
+  margin-left: 80px;
+}
+
+.contact {
+  display: flex;
+  padding: 100px 100px 100px 100px;
+}
+
+.contact-left {
+  flex: 1;
+  border-style: solid;
+  padding-left: 30px;
+  border-width: 0px 0.5px 0px 0px;
+}
+
+.contact-line {
+  margin-top: 20px;
+  padding-bottom: 5px;
+}
+
+.submit {
+  padding-left: 400px;
+}
+
+.contact-right {
+  flex: 1;
+  padding-left: 50px;
+}
+
+.social {
+  padding-top: 50px;
+}
+
+.subject {
+  border: 0px 5px 0px 0px;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  outline: 0;
+  border-width: 0 0 1.5px;
+  color: none;
+  border-color: #53535a;
+}
+
+button {
+  color: none;
+  background-color: none;
+  font-weight: 800;
+  height: 4vh;
+  width: 15vh;
+}
+
+.pullright {
+  padding-top: 20px;
+  padding-left: 500px;
+}
+.punepullright {
+  padding-top: 100px;
+  padding-left: 500px;
+}
+
+.cpullright {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.c2pullright {
+  padding-top: 80px;
+  padding-left: 100px;
+}
